@@ -4,7 +4,7 @@ Proyecto ETL y Automatizacion de Datawarehuse usando flujo de trabajo con Airflo
 
 ## CONTENIDO - CODIGO FUENTE
 
-- dags/cryptomoneda/cryptomoneda.py : Flujo del AirFlow
-- dags/cryptomoneda/utils.py : Detalle de cada servicio del flujo
+- dags/cryptomoneda/[cryptomoneda.py](dags/cryptomoneda/cryptomoneda.py) : Flujo del AirFlow
+- dags/cryptomoneda/[utils.py](dags/cryptomoneda/utils.py) : Detalle de cada servicio del flujo
   * etl: Realiza el proceso de ETL
   * load_datawarehouse : Carga a la BD AWS RedShift usando un carga incremental.
